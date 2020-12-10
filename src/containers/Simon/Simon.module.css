@@ -1,0 +1,16 @@
+.simon {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.simon__buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.simon__buttons > button {
+  flex: 0 50%;
+}

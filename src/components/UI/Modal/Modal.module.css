@@ -1,0 +1,34 @@
+.modal {
+  position: fixed;
+  z-index: 500;
+  padding: 15px;
+  width: 95%;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  background: white;
+  box-sizing: border-box;
+  border: 2px solid #0c7a93;
+  border-radius: 10px;
+  transition: all 0.25s ease-in-out;
+}
+
+.modal__open {
+  transform: translateY(2vh);
+  opacity: 1;
+}
+
+.modal__close {
+  transform: translateY(-100vh);
+  opacity: 0;
+}
+
+@media (min-width: 500px) {
+  .modal {
+    width: auto;
+  }
+
+  .modal__open {
+    transform: translateY(-5vh);
+  }
+}
