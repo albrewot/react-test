@@ -1,0 +1,18 @@
+.nav_bar {
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 5px 0 10px;
+  background-color: #0c7a93;
+  box-sizing: border-box;
+  z-index: 90;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_bar nav {
+  height: 100%;
+}
