@@ -1,0 +1,27 @@
+.triangle__container {
+  display: flex;
+  height: inherit;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.triangle__numbers {
+  padding: 15px;
+  height: 320px;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px black;
+}
+
+.triangle__inputs {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  height: 320px;
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px black;
+}

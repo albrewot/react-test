@@ -9,8 +9,24 @@
 .simon__buttons {
   display: flex;
   flex-wrap: wrap;
+  color: #8b190f;
+  color: #cea10b;
+  color: #0c0fbb;
+  color: #0c8116;
 }
 
 .simon__buttons > button {
   flex: 0 50%;
+}
+
+.simon__modal__upper {
+  display: flex;
+  justify-content: center;
+}
+
+.simon__modal__bottom {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }

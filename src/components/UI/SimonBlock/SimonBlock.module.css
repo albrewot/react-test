@@ -1,4 +1,17 @@
 .simon_block {
   width: 150px;
   height: 150px;
+  cursor: pointer;
+}
+
+.simon_block__active {
+  border: 5px solid rgb(110, 100, 100);
+}
+
+.simon_block:disabled {
+  cursor: not-allowed;
+}
+
+.simon_block:focus {
+  outline: none;
 }

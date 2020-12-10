@@ -6,6 +6,7 @@ import { Redirect, Route, Switch } from "react-router-dom";
 import Layout from "./containers/Layout/Layout";
 import Simon from "./containers/Simon/Simon";
 import Triangle from "./containers/Triangle/Triangle";
+import ScoreBoard from "./containers/ScoreBoard/ScoreBoard";
 
 export class App extends Component {
   static propTypes = {};
@@ -16,6 +17,7 @@ export class App extends Component {
         <Switch>
           <Route path="/triangle" component={Triangle} />
           <Route path="/simon" component={Simon} />
+          <Route path="/scoreboard" component={ScoreBoard} />
           <Redirect to="/" />
         </Switch>
       </Layout>

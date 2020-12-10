@@ -11,6 +11,7 @@ const NavList = (props) => {
       <NavItem link="/">Home</NavItem>
       <NavItem link="/triangle">Triangle</NavItem>
       <NavItem link="/simon">Simon</NavItem>
+      <NavItem link="/scoreboard">Scoreboard</NavItem>
     </React.Fragment>
   );
 
